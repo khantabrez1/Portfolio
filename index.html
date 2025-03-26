@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+<h1> nothing</h1>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-danger fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="rounded-pill" src="tabrez.logo.jpeg" alt="" style="height: 80px;">
+      </a>
+
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav m-auto txt-dark">
+          <li class="nav-item">
+            <a class="nav-link text-dark fs-3 fw-bold m-3" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fs-3 fw-bold m-3" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fs-3 fw-bold m-3" href="#aboutme">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fs-3 fw-bold m-3" href="#project">Projects</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-success" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+<section id="home" >
+  <div id="demo"  class="carousel slide mt-5 pt-2" data-bs-ride="carousel" >
+
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="carousel1.webp" alt="error" class="d-block" style="width:100%;  height: 84vh;">
+        <div class="carousel-caption">
+          <h3>I love Coding</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quia odio soluta enim repellat quibusdam!
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="carousel1.webp" alt="error" class="d-block" style="width:100%;  height: 84vh;">
+        <div class="carousel-caption">
+          <h3>I love Coding</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quia odio soluta enim repellat quibusdam!
+          </p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="carousel1.webp" alt="error" class="d-block" style="width:100%; height: 84vh;">
+        <div class="carousel-caption">
+          <h3>I love Coding</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quia odio soluta enim repellat quibusdam!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+  </div>
+</section>
+
+
+  <section id="skills" class="mt-5 mb-5">
+    <div class="container-fluid  ">
+      <h1 class=" text-center p-4">Skills</h1>
+    </div>
+
+    <div class="container-fluid row justify-content-center" >
+
+      <div class=" card m-3 shadow " style="width:350px;">     
+        <img class="card-img-top p-2" src="html.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">HTML</h4>
+          <p class="card-text">HTML is basically the the skeleton of the website</p>
+          <a href="#" class="btn btn-success">Learn more</a>
+        </div>
+      </div>
+
+      <div class=" card m-3 shadow  " style="width:350px;">    
+        <img class="card-img-top p-2 mx-auto " src="css.svg" alt="Card image" style="width:70%">
+        <div class="card-body">
+          <h4 class="card-title">CSS</h4>
+          <p class="card-text">CSS is used to design the website and makes the website more interactive</p>
+          <a href="#" class="btn btn-success">Learn more</a>
+        </div>
+      </div>
+      <div class="card m-3 shadow  " style="width:350px;">    
+        <img class="card-img-top p-2 mx-auto " src="js.png" alt="Card image" style="width:85%">
+        <div class="card-body">
+          <h4 class="card-title">JavaScript</h4>
+          <p class="card-text">JavaScript (JS) is a programming language that is used to make web pages interactive.</p>
+          <a href="#" class="btn btn-success">Learn more</a>
+        </div>
+      </div>
+      <div class="card m-3 shadow  " style="width:350px;">    
+        <h2 class="text-center mt-2">bootstrap</h2>
+        <img class="card-img-top p-2 mx-auto " src="bootstrap.svg" alt="Card image" style="width:85%">
+        <div class="card-body">
+          <h4 class="card-title">bootstrap</h4>
+          <p class="card-text">JavaScript (JS) is a programming language that is used to make web pages interactive.</p>
+          <a href="#" class="btn btn-success">Learn more</a>
+        </div>
+      </div>
+      
+   
+      
+    </div>
+  </section>
+
+  <section id="aboutme">
+
+    <div class="container-fluid">
+      <h1 class="p-5 text-center">About me</h1>
+    </div>
+
+    <div class="container-fluid bg-primary p-4">
+      <h1 class="text-center pt-3">KHAN TABREZ HAZRAT ALI</h1>
+      <p class="text-center text-white">Phone:9372655091  gmail: khantabrezhazratali111@gmail.com</p>
+    </div>
+    <div class="container-fluid bg bg-primary">
+     <div class="row d-flex justify-content-around text-white p-2">
+      <div class="col-3">DOB: 21 April 2003 </div>
+      <div class="col-3">Place of birth:Dhimrauli,UP</div>
+      <div class="col-3">Address:Malik Residency,Mumbra </div>
+     </div>
+    </div>
+    <div class="container">
+      <h2 class="mt-5 text-center">Education</h2>
+      <table class="table  table-primary mt-5 mb-5">
+        <thead>
+          <tr>
+            <th>class</th>
+            <th>Institute</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SSC</td>
+            <td>Al-Ehsan English High School </td>
+            <td>68%</td>
+          </tr>
+          <tr>
+            <td>HSC</td>
+            <td>Asadullah Khan jr. College</td>
+            <td>82%</td>
+          </tr>
+          <tr>
+            <td>B.Sc.(ComputerScience)</td>
+            <td>M.S. College of Science, Arts and BMS</td>
+            <td>8.01 CGPI</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+ 
+  </section>
+
+ <section id="project">
+  <h1 class="text-center p-5 ">Projects</h1>
+
+  <div class="container-fluid row justify-content-center ">
+
+  <div class="card m-3 shadow " style="width:350px;">     
+    <iframe class=" p-3" src="flipkart - Google Chrome 2024-08-26 20-27-04.mp4" style="width: 100%;" frameborder="0"></iframe>
+    <div class="card-body">
+      <h4 class="card-title">Flipkart Clone</h4>
+      <p class="card-text">The clone of Flipkart </p>
+      <a href="#" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="card m-3 shadow  " style="width:350px;">     
+    <iframe class=" p-3" src="blog - Google Chrome 2024-08-22 18-00-29.mp4" frameborder="0"></iframe>
+    <div class="card-body">
+      <h4 class="card-title">A Blog Page </h4>
+      <p class="card-text">A simple blog Page </p>
+      <a href="#" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="card m-3 shadow " style="width:350px;">     
+    <iframe class=" p-3" src="Document - Google Chrome 2024-08-23 11-02-22.mp4" frameborder="0"></iframe>
+    <div class="card-body">
+      <h4 class="card-title">Google Clone</h4>
+      <p class="card-text">The clone of Google </p>
+      <a href="#" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="card m-3 shadow " style="width:350px;">     
+    <iframe class=" p-3" src="Tabrez portfolio - Google Chrome 2024-08-22 17-59-07.mp4" frameborder="0"></iframe>
+    <div class="card-body">
+      <h4 class="card-title">A portfolio website</h4>
+      <p class="card-text"> This is a portfolio website which contain some project</p>
+      <a href="#" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+  <div class="card  m-3  shadow " style="width:350px;">     
+    <iframe class="p-3 "  src="Effy Store - Google Chrome 2024-08-30 17-50-21.mp4" frameborder="0"></iframe>
+    <div class="card-body">
+      <h4 class="card-title">E-commerce Website</h4>
+      <p class="card-text">This is a e ommerce website which is contain some good animations</p>
+      <a href="#" class="btn btn-success">Learn more</a>
+    </div>
+  </div>
+
+
+
+</div>
+ </section>
+
+
+<footer class="container-fluid bg-dark">
+
+  <p class="text-white p-5 mb-0 text-center">2024 TABREZ WEBDEVELOPMENT / ALL RIGHTS RESERVED</p> 
+
+</footer>
+
+<script>
+  // Smooth scroll to sections
+  document.querySelectorAll('a.nav-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  // Scroll to top button
+  const scrollTopBtn = document.getElementById('scrollTopBtn');
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 300) {
+      scrollTopBtn.style.display = 'block';
+    } else {
+      scrollTopBtn.style.display = 'none';
+    }
+  });
+
+  scrollTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>
+
+</body>
+
+</html>
